@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: test.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.811 s <<< FAILURE! - in test.SimpleTest
+SchemaBooksValidate(test.SimpleTest)  Time elapsed: 2.995 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <200>.
+
+	at test.SimpleTest.SchemaBooksValidate(SimpleTest.java:143)
+
