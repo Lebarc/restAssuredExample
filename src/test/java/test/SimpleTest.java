@@ -127,7 +127,7 @@ public class SimpleTest {
                 .get()
                 .then()
                 .assertThat()
-                .statusCode(201)
+                .statusCode(200)
                 .body(JsonSchemaValidator.matchesJsonSchema(new File("/Users/leonardomincola/Downloads/RestAssuredExample/src/test/java/schema/booksSchema.json")));
     }
 }
